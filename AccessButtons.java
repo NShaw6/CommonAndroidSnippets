@@ -8,3 +8,13 @@
                 Log.d("demo", "Button Clicked");
             }
         });
+
+
+
+        // Or Implement View.OnClickListener
+         @Override
+    public void onClick(View v) {
+        if (v.getId() == R.id.button) {
+            Log.d("demo", "Button Clicked");
+        }
+    }
